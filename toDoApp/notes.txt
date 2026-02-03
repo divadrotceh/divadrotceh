@@ -1,1 +1,20 @@
+#Features
+-SQLAlchemy for database management
+
+
+#Creating the models for the app
+
+Model 1 
+Name: User
+-Columns
+user_name
+password_hash
+user_id
+
+Model 2: Task
+task_name
+
+user_id
+
+
 
