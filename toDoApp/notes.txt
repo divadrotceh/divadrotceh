@@ -1,6 +1,8 @@
 #Features
--SQLAlchemy for database management
-
+- SQLAlchemy for database management
+- OAuth for authentication and authorization management
+- postreSQL Database
+- UI TBD
 
 #Creating the models for the app
 
