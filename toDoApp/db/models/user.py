@@ -1,12 +1,9 @@
 from toDoApp.db.base import Base
 from sqlalchemy.dialects.postgresql import UUID
+from sqlalchemy.orm import mapped_column, Mapped
+from typing import List, Optional
+from sqlalchemy import ForeignKey, String
 import uuid
-from sqlalchemy.orm import mapped_column
-from typing import List
-from typing import Optional
-from sqlalchemy import ForeignKey
-from sqlalchemy import String
-from sqlalchemy.orm import Mapped
 
 class User(Base):
   #Table Name
