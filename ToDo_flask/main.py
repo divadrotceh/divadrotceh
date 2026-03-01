@@ -1,7 +1,9 @@
 from app import app
-from views import bp
+import views
+import auth
 
 if __name__ == "__main__":
-    app.secret_key = "jdkfosvns"
-    app.register_blueprint(bp)
+    app.secret_key = "dev‑key‑change‑me-after-testing"
+    app.register_blueprint(views.bp)
+    app.register_blueprint(auth.bp)
     app.run(debug = True)
